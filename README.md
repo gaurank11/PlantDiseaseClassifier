@@ -35,7 +35,7 @@ pip install numpy matplotlib opencv-python tensorflow
 After installing the required packages, clone this repository to your local machine using:
 
 ```bash
-git clone <repository-url>
+git clone <https://github.com/gaurank11/PlantDiseaseClassifier>
 ```
 
 ## Dataset
