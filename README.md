@@ -16,5 +16,16 @@ This project aims to classify images of potato plants into different categories 
 
 ## Installation
 
-To run this project, ensure you have the following libraries installed:
+To run this project, you need to install the necessary Python packages. You can do this using pip. Here are the required libraries:
+
+- numpy
+- matplotlib
+- opencv-python
+- tensorflow
+
+You can install these packages by running the following command:
+
+```bash
+pip install numpy matplotlib opencv-python tensorflow
+
 
