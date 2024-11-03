@@ -13,7 +13,6 @@ This project aims to classify images of potato plants into different categories 
 - [Model Architecture](#model-architecture)
 - [Training the Model](#training-the-model)
 - [Results](#results)
-- [License](#license)
 
 ## Installation
 
@@ -35,10 +34,12 @@ pip install numpy matplotlib opencv-python tensorflow
 After installing the required packages, clone this repository to your local machine using:
 
 ```bash
-git clone <https://github.com/gaurank11/PlantDiseaseClassifier>
+git clone https://github.com/gaurank11/PlantDiseaseClassifier
 ```
 
 ## Dataset
+
+Download Dataset - https://www.kaggle.com/datasets/emmarex/plantdisease 
 
 The dataset used for this project is the PlantVillage dataset, which contains images of potato plants categorized as healthy, early blight, or late blight. Ensure that you have the dataset organized as follows:
 
@@ -65,10 +66,10 @@ The model architecture consists of a Convolutional Neural Network (CNN) with the
 
 To train the model, execute the main script. The model will be trained on the training dataset and validated using a portion of the dataset. The training process can be monitored through the console output.
 
+![image](https://github.com/user-attachments/assets/2ba90696-46a3-4901-a012-6e21f9d9a850)
+
+
 ## Results
 
 After training, the model can predict the health status of potato plants based on new images. Evaluate the model's performance using the validation accuracy and loss metrics printed during training.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
