@@ -28,5 +28,10 @@ You can install these packages by running the following command:
 ```bash
 pip install numpy matplotlib opencv-python tensorflow
 
-Clone the Repository
+
+## Clone the Repository
+
 After installing the required packages, clone this repository to your local machine using:
+
+```bash
+git clone <repository-url>
