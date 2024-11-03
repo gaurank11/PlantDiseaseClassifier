@@ -73,3 +73,6 @@ To train the model, execute the main script. The model will be trained on the tr
 
 After training, the model can predict the health status of potato plants based on new images. Evaluate the model's performance using the validation accuracy and loss metrics printed during training.
 
+![image](https://github.com/user-attachments/assets/4693f567-6b83-4ff1-ab0b-2fa4b966b684)
+
+
