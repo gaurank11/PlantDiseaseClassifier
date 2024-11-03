@@ -1,3 +1,4 @@
+
 # Potato Disease Classifier
 
 ## Project Overview
@@ -27,9 +28,7 @@ You can install these packages by running the following command:
 
 ```bash
 pip install numpy matplotlib opencv-python tensorflow
-
-exit
-
+```
 
 ## Clone the Repository
 
@@ -37,3 +36,39 @@ After installing the required packages, clone this repository to your local mach
 
 ```bash
 git clone <repository-url>
+```
+
+## Dataset
+
+The dataset used for this project is the PlantVillage dataset, which contains images of potato plants categorized as healthy, early blight, or late blight. Ensure that you have the dataset organized as follows:
+
+```
+PlantVillage/
+├── Potato___Early_blight/
+├── Potato___Late_blight/
+└── Potato___healthy/
+```
+
+## Usage
+
+To run the classification model, ensure you have the dataset in the correct directory structure. You can then run the main script that includes data preprocessing, model building, training, and evaluation.
+
+## Model Architecture
+
+The model architecture consists of a Convolutional Neural Network (CNN) with the following layers:
+
+- Convolutional layers for feature extraction.
+- Max pooling layers for down-sampling.
+- Dense layers for classification using Softmax activation.
+
+## Training the Model
+
+To train the model, execute the main script. The model will be trained on the training dataset and validated using a portion of the dataset. The training process can be monitored through the console output.
+
+## Results
+
+After training, the model can predict the health status of potato plants based on new images. Evaluate the model's performance using the validation accuracy and loss metrics printed during training.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
