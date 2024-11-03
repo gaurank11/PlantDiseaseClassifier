@@ -28,6 +28,8 @@ You can install these packages by running the following command:
 ```bash
 pip install numpy matplotlib opencv-python tensorflow
 
+exit
+
 
 ## Clone the Repository
 
